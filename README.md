@@ -14,7 +14,8 @@ This repository contains machine learning models and related scripts for the ML4
 -  log_reg.py: Implements Logistic Regression for bitstream classification.
 -  Sample.csv / Sample.xlsx: Example datasets to help understand the structure of input data.
 -  TrainingData.csv: Training data for the models.
--  trained_mlp_model.h5 / trained_nn_model.h5 / logistic_regression_model.pkl: Pre-trained models for quick evaluation and predictions.
+-  trained_mlp_model.h5 / trained_nn_model.h5 / logistic_regression_model.pkl/ svm_model.pkl: Pre-trained models for quick evaluation and predictions.
+-  Report.pdf: Analysis of different ML models and performance analysis.
 
 ## Usage
 Each script can be run independently to train, evaluate, or predict with different models on bitstream data. 
