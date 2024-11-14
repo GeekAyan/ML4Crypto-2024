@@ -6,9 +6,9 @@ This repository contains machine learning models and related scripts for the ML4
 
 ## Files
 
--  MLP.py: Implements a Multi-Layer Perceptron model for bitstream classification.
--  SVM.py: Uses a Support Vector Machine (SVM) to classify bitstreams.
--  classification.py: Contains a generic classification script that can be modified for various models.
+-  MLP.py: Implements an advanced Multi-Layer Perceptron model for bitstream classification.
+-  SVM.py: Uses an advanced Support Vector Machine (SVM) to classify bitstreams.
+-  classification.py: Contains a generic classification script that can be modified for various models. This file has classical classification algorithms for baseline.
 -  dnn.py: A Deep Neural Network (DNN) model setup for more complex patterns in bitstreams.
 -  main.py: Script for evaluating model performance on sample test data.
 -  log_reg.py: Implements Logistic Regression for bitstream classification.

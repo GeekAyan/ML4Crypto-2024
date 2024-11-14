@@ -36,9 +36,14 @@ loaded_model = load_model('trained_mlp_model.h5')
 # Make predictions on the new test dataset
 y_new_pred = loaded_model.predict(X)
 y_new_pred_binary = (y_new_pred > 0.5).astype(int)
-print("Predictions on new test dataset:", y_new_pred_binary)
+print("MLP: Predictions on new test dataset:", y_new_pred_binary)
 
 # logistic regression model
 loaded_model = joblib.load('logistic_regression_model.pkl')
 y_pred = loaded_model.predict(X)
-print("Predictions on new test dataset:", y_pred)
+print("Logistic Regression: Predictions on new test dataset:", y_pred)
+
+# svm model
+loaded_model = joblib.load('svm_model.pkl')
+y_pred = loaded_model.predict(X)
+print("SVM: Predictions on new test dataset:", y_pred)
