@@ -10,7 +10,7 @@ This repository contains machine learning models and related scripts for the ML4
 -  SVM.py: Uses a Support Vector Machine (SVM) to classify bitstreams.
 -  classification.py: Contains a generic classification script that can be modified for various models.
 -  dnn.py: A Deep Neural Network (DNN) model setup for more complex patterns in bitstreams.
--  evaluate_model.py: Script for evaluating model performance on test data.
+-  main.py: Script for evaluating model performance on sample test data.
 -  log_reg.py: Implements Logistic Regression for bitstream classification.
 -  Sample.csv / Sample.xlsx: Example datasets to help understand the structure of input data.
 -  TrainingData.csv: Training data for the models.
